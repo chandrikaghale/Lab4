@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ISS LOCATION:</title>
+    <!-- linking css file -->
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="whereissat.js"></script>
+
+    <style>
+        body {
+            font-family: 'Helvetica';
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #282C35;
+        }
+
+        #map {
+            height: 500px;
+            border: 2px solid #f1eaea;
+            border-radius: 10px;
+            margin-top: 20px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <h1>Satellite Location</h1>
+        <div class="student">
+            <p class="details"><strong>Student Name: Chandrika Ghale</strong></p>
+            <p class="details"><strong>Student ID: 200575692</strong></p>
+            <p class="details"><strong>Group ID: 4</strong></p>
+            <p class="details"><strong>Group Name: New Group 4</strong></p>
+        </div>
+        <div id="lat_long"></div>
+        <div id="map" class="map-area">
+        </div>
+    </div>
+</body>
+
+</html>
