@@ -13,3 +13,19 @@
     width: 100%;
     margin: auto;
 }
+
+.student {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.details {
+    padding-right: 40px;
+}
+
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

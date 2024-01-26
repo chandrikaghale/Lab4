@@ -23,7 +23,6 @@ async function updateMapWithISSLocation() {
         const marker = L.marker([issLocation.latitude, issLocation.longitude]).addTo(map);
         marker.bindPopup("Satellite").openPopup();
 
-        
         const mapInfo =
             `<div>
             <p> ID : <strong> ${issLocation.id} </strong></p>
